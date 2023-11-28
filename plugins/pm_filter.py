@@ -1989,7 +1989,7 @@ async def auto_filter(client, msg, spoll=False):
             btn = [[
                     InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
                     ]]
-            dlt = await message.reply_sticker('CAACAgIAAxkBAAECtcVktT1nnSIDQxFolMoMZkBb-7BUKwACaAEAAhAabSL1Nxwp9hekbx4E', reply_markup=InlineKeyboardMarkup(btn))
+            #dlt = await message.reply_sticker('CAACAgIAAxkBAAECtcVktT1nnSIDQxFolMoMZkBb-7BUKwACaAEAAhAabSL1Nxwp9hekbx4E', reply_markup=InlineKeyboardMarkup(btn))
             search = search.lower()
             find = search.split(" ")
             search = ""
