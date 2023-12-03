@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20806969'))
-API_HASH = environ.get('API_HASH', 'f001849034aa0a1616ddce62d10967ec')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6456991988:AAH-JpE3Qcup3fBgoRVAZuptZ3ZMyau69aY")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,7 +29,7 @@ VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/2f7b5a8b0d33102d1
 VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '919169586 6977859652 2038847704').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6977859652 2038847704').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002097324421 -1002137961726').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -45,7 +45,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://comfy2:comfy2@cluster0.vijcaco.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "comfy2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
