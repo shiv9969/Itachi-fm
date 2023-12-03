@@ -199,11 +199,12 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b><a href=https://t.me/ComfyTraderzBot>{file_caption}</a>
+🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
+📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
-
-▫️ Mᴀɪɴ Cʜᴀɴɴᴇʟ : @cinemaduniyachannel
-▫️ Mᴀɪɴ Gʀᴏᴜᴘ : @rockersallmoviesearch</b>""" 
+<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/ComfyTraderzBot">ComfyTraderz</a>
+🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/cinemaduniyachannel">𝐌𝐎𝐕𝐈𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋</a>
+🔰 Gʀᴏᴜᴘ : <a href="https://t.me/rockersallmoviesearch">𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></b>"""
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
