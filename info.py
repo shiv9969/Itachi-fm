@@ -34,11 +34,11 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002044669778')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002086950913')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -46,7 +46,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "comfymoviez")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -61,7 +61,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movies_hub_official2')
 SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/TG_LINKS_CHANNEL')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_UPDATES1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1/300')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1/371')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/TG_UPDATES¹')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
