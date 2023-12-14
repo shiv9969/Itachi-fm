@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/SANDY-FM-III/SATORU-.git /sarapub
+  git clone https://github.com/SANDY-FM-III/SATORU- /sarapub
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /sarapub
