@@ -21,15 +21,15 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/0219abb5fa7e21faf931a.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/66cbe961d8e12533123e7.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/900c5d3aca7c6b100eb69.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7b0ba2952ec098bb46997.jpg")
-VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg")
-VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/10ce98d4446e117df4932.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6977859652 2038847704').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1960614875').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002137961726 -1002038472939').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -66,7 +66,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/TG_UPDATES¹')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TG_SUPPORT_GROUP')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FmDiscusss')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
