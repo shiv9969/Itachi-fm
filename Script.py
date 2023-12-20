@@ -202,9 +202,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
 📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
 
-<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/Gojo_SatoruJi">Gojo</a>
-🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/Filmy_men">𝐌𝐎𝐕𝐈𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋</a>
-🔰 Gʀᴏᴜᴘ : <a href="https://t.me/FilmyMen_Request">𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></b>"""
+<b>━━━━━━━━━━━━━
+@Gojo_AutoFMbot 💙⃤
+━━━━━━━━━━━━━</a></b>"""
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
