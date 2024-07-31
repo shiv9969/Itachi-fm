@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/10ce98d4446e117df4932.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg")
+VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg")
+VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/76f1aa4d9e4ae2a8acf20.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1960614875 5555597971').split()]
@@ -58,7 +58,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FmDiscusss')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmyMen_Request')
 SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/FILMY_MEN')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FILMY_MEN')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1/371')
