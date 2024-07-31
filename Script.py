@@ -199,11 +199,11 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
-📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
+🗂 𝖥𝗂𝗅𝖾: <b><font class=smcp>{file_name}</font></b>
+📀 𝖲𝗂𝗓𝖾: <b><font class=smcp>{file_size}</font></b>
 
 <b>━━━━━━━━━━━━━
-@Gojo_AutoFMbot 💙⃤
+@Gojo_AutoFMbot🤞🩵
 ━━━━━━━━━━━━━</a></b>"""
 
     FORCE_SUB = """
