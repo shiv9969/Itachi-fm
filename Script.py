@@ -203,7 +203,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 📀 𝖲𝗂𝗓𝖾: <b><font class=smcp>{file_size}</font></b>
 
 <b>━━━━━━━━━━━━━
-@Gojo_AutoFMbot🤞🩵
+@FILMY_MEN🤞🩵
 ━━━━━━━━━━━━━</a></b>"""
 
     FORCE_SUB = """
